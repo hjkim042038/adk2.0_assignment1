@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.Python
+*.egg-info/
+
+# Env
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / build
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Local-only
+llms.txt
+debug_script.py
+movie_agent/.adk/
+.adk/
+.claude/

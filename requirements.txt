@@ -1,0 +1,9 @@
+# ADK 2.0 Alpha — pip install 시 --pre 플래그 필요
+# pip install --pre -r requirements.txt
+google-adk==2.0.0a1
+
+# 출력 스키마 강제 (claude.md §1)
+pydantic
+
+# 환경변수 로딩
+python-dotenv
